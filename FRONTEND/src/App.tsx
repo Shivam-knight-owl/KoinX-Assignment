@@ -1,8 +1,13 @@
+import "./App.css"
+import Navbar from "./components/Navbar"
+import Maindiv from "./components/Maindiv"
+
 function App() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <div className="bg-gray-200 min-h-screen w-full">
+      <Navbar></Navbar>
+      <Maindiv></Maindiv>
+    </div>
   )
 }
 
